@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetPlanet - Il tuo negozio di animali</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="favicon.ico"> 
+</head>
+<body id="top">
+
+    <header class="hero-section">
+        <div class="header-band">
+            <div class="brand-info">
+                <img src="img/logoChiaro.png" alt="Logo PetPlanet" class="logo">
+                <span class="site-name">PetPlanet</span>
+            </div>
+
+         
+            
+            <button class="hamburger" id="hamburger-menu" aria-label="Menu di Navigazione">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+
+        <div class="hero-content">
+            <h1>Il meglio per i tuoi amici a quattro zampe!</h1>
+            <p>Esplora la nostra selezione di cibi, giocattoli e accessori.</p>
+            <a href="#prodotti" class="cta-button">Scopri le Offerte</a>
+        </div>
+    </header>
+
+    <nav class="nav-menu" id="main-nav">
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#evento-natale">Eventi</a></li>
+            <li><a href="#prodotti">Novità e prodotti</a></li>
+            <li><a href="#servizi">Servizi</a></li>
+            <li><a href="#chi-siamo">Chi siamo</a></li>
+            <li><a href="#recensioni">Recensioni</a></li>
+            <li><a href="#contatti">Contatti</a></li>
+        </ul>
+    </nav>
+
+   <main>
+        
+        <section class="christmas-promo" id="evento-natale">
+            <div class="christmas-content">
+                <div class="christmas-text">
+                    <h2>🎄 Natale con PetPlanet!</h2>
+                    <p class="christmas-subtitle">Festeggia il Natale con i tuoi amici a quattro zampe! Scopri le nostre offerte speciali natalizie, regali esclusivi e decorazioni festive per rendere indimenticabile questa stagione.</p>
+                    <ul class="christmas-features">
+                        <li>🎁 Regali personalizzati per cani e gatti</li>
+                        <li>❄️ Decorazioni natalizie a tema pet-friendly</li>
+                        <li>⭐ Sconti fino al 30% su prodotti selezionati</li>
+                        <li>🔔 Eventi speciali e workshop prenatalizi</li>
+                    </ul>
+                </div>
+                <div class="christmas-image">
+                    <img src="img/immagineLocandinaEventoNatalizio.png" alt="Locandina Evento Natale PetPlanet" class="christmas-img">
+                </div>
+            </div>
+        </section>
+        
+        <section class="product-showcase" id="prodotti">
+            <h2>✨ Le Nostre Novità e Prodotti Top</h2>
+            <div class="product-grid">
+                
+                <div class="product-card">
+                    <div class="product-tag new-tag">Novità!</div> 
+                    <img src="img/novita/ciboCani.webp" alt="Cibo Premium Cane" class="product-img">
+                    <h3>Cibo Secco Premium</h3>
+                    <p>Nutrizione bilanciata per cani attivi.</p>
+                    <div class="price-info">
+                        <span class="price-current">€ 45,99</span> 
+                    </div>
+                    <a href="#" class="product-link">Vedi Dettagli &raquo;</a>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-tag discount-tag">-20%</div> 
+                    <img src="img/novita/laser.webp" alt="Gioco Interattivo Gatto" class="product-img">
+                    <h3>Gioco Interattivo Laser</h3>
+                    <p>Ore di divertimento per il tuo gatto.</p>
+                    <div class="price-info">
+                        <span class="price-old">€ 24,99</span>  
+                        <span class="price-current">€ 19,99</span>
+                    </div>
+                    <a href="#" class="product-link">Acquista Ora &raquo;</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/novita/cuccia.webp" alt="Cuccia Morbida" class="product-img">
+                    <h3>Cuccia Morbida Ortobed</h3>
+                    <p>Massimo comfort e supporto.</p>
+                    <div class="price-info">
+                        <span class="price-current">€ 79,50</span>
+                    </div>
+                    <a href="#" class="product-link">Scopri &raquo;</a>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="services-promo" id="servizi">
+            <h2>💎 I Nostri Servizi Professionali</h2>
+            <p class="section-subtitle">Il benessere dei tuoi amici è la nostra priorità. Scopri come possiamo prenderci cura di loro con servizi di qualità superiore.</p>
+            
+            <div class="services-container">
+                
+                <div class="service-item">
+                    <span class="service-icon icon-grooming">🛁</span> 
+                    <h3>Toelettatura Premium</h3>
+                    <p>Trattamenti completi e personalizzati per l'igiene, il pelo e la cura della pelle del tuo animale. I nostri toelettatori certificati utilizzano solo prodotti naturali e ipoallergenici.</p>
+                    <div class="service-features">
+                        <ul>
+                            <li>Bagno e asciugatura specializzata</li>
+                            <li>Taglio e styling personalizzato</li>
+                            <li>Pulizia orecchi e unghie</li>
+                            <li>Trattamenti per pelle sensibile</li>
+                        </ul>
+                    </div>
+                    <span class="service-link service-link--static">Prenota Ora &raquo;</span>
+                </div>
+                
+                <div class="service-item">
+                    <span class="service-icon icon-nutrition">🍎</span> 
+                    <h3>Consulenza Nutrizionale</h3>
+                    <p>Piani alimentari personalizzati e supporto dietetico forniti dai nostri esperti nutrizionisti. Creiamo programmi su misura per le esigenze specifiche del vostro animale.</p>
+                    <div class="service-features">
+                        <ul>
+                            <li>Analisi nutrizionale completa</li>
+                            <li>Diete terapeutiche specializzate</li>
+                            <li>Consigli su integratori naturali</li>
+                            <li>Follow-up regolari e supporto</li>
+                        </ul>
+                    </div>
+                    <span class="service-link service-link--static">Maggiori Info &raquo;</span>
+                </div>
+
+                <div class="service-item">
+                    <span class="service-icon icon-vet">⚕️</span> 
+                    <h3>Assistenza Veterinaria</h3>
+                    <p>Check-up rapidi e consigli per la salute generale in collaborazione con cliniche locali certificate. Il tuo animale merita le migliori cure veterinarie.</p>
+                    <div class="service-features">
+                        <ul>
+                            <li>Visite di controllo e vaccinazioni</li>
+                            <li>Primo soccorso e emergenze</li>
+                            <li>Consigli igienici e preventivi</li>
+                            <li>Referenze specializzate</li>
+                        </ul>
+                    </div>
+                    <span class="service-link service-link--static">Contatta &raquo;</span>
+                </div>
+                
+            </div>
+
+            <div class="services-footer">
+                <p class="services-cta-text">Tutti i nostri servizi sono forniti da professionisti certificati con anni di esperienza nel settore. Siamo aperti 6 giorni a settimana per garantire la massima disponibilità.</p>
+            </div>
+        </section>
+
+        <section class="about-promo" id="chi-siamo">
+            <div class="about-text">
+                <h2>💚 La Nostra Passione per gli Animali</h2>
+                
+                <div class="passion-intro">
+                    <p class="passion-highlight">"Non è solo un lavoro. È una promessa che facciamo ogni giorno ai vostri amici."</p>
+                </div>
+
+                <p class="about-intro">Nel 2010, tre amici si sono seduti in un piccolo negozio e hanno fatto una domanda semplice: <strong>"E se il nostro animale fosse il nostro cliente?"</strong> Da allora, quella domanda guida ogni nostra decisione.</p>
+
+                <h3>🎯 Perché Siamo Diversi</h3>
+                <div class="passion-cards">
+                    <div class="passion-card">
+                        <span class="passion-emoji">🐕</span>
+                        <h4>Consigliamo, Non Vendiamo</h4>
+                        <p>Prima di suggerirti un prodotto, ci chiediamo: "Lo darei al mio animale?" Se la risposta è no, non lo troverai qui.</p>
+                    </div>
+                    <div class="passion-card">
+                        <span class="passion-emoji">🤝</span>
+                        <h4>Aiutiamo Chi Ha Bisogno</h4>
+                        <p>Il 25% dei nostri profitti va direttamente a rifugi e associazioni locali. Ogni acquisto salva una vita.</p>
+                    </div>
+                    <div class="passion-card">
+                        <span class="passion-emoji">🌱</span>
+                        <h4>Etica Senza Compromessi</h4>
+                        <p>Solo prodotti sostenibili, cruelty-free e certificati. Zero scorciatoie. Il pianeta conta quanto i tuoi amici.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="img/team_petplanet.png" alt="Team PetPlanet" class="team-img">
+            </div>
+        </section>
+
+        <section class="testimonial-section" id="recensioni">
+            <h2>⭐ Dicono di Noi - Testimoniali dei Nostri Clienti</h2>
+            <p class="testimonial-intro">Scopri cosa pensano i nostri clienti soddisfatti della loro esperienza con PetPlanet!</p>
+            
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <div class="star-rating">⭐⭐⭐⭐⭐</div>
+                    <blockquote>
+                        "Personale competente e prodotti di alta qualità. Il mio cane adora il cibo che prendo qui!"
+                    </blockquote>
+                    <cite>- Marta Rossi</cite>
+                    <p class="pet-info">Proprietaria di Max (Golden Retriever)</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="star-rating">⭐⭐⭐⭐⭐</div>
+                    <blockquote>
+                        "Fantastico! I servizi di toelettatura sono impeccabili. Il mio gatto esce sempre splendente e rilassato."
+                    </blockquote>
+                    <cite>- Giovanni Benedetti</cite>
+                    <p class="pet-info">Proprietario di Luna (Gatto Persiano)</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="star-rating">⭐⭐⭐⭐⭐</div>
+                    <blockquote>
+                        "Consulenza nutrizionale eccellente! Hanno risolto i problemi digestivi del mio coniglio. Consigliatissimi!"
+                    </blockquote>
+                    <cite>- Sara Giallorenzo</cite>
+                    <p class="pet-info">Proprietaria di Whiskers (Coniglio)</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="star-rating">⭐⭐⭐⭐⭐</div>
+                    <blockquote>
+                        "Il miglior negozio in città! Prezzi competitivi e staff sempre disponibile e preparato. Ci torno ogni settimana!"
+                    </blockquote>
+                    <cite>- Andrea Marchini</cite>
+                    <p class="pet-info">Proprietario di Rocco e Bella (Border Collie)</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="star-rating">⭐⭐⭐⭐⭐</div>
+                    <blockquote>
+                        "I giocattoli che consigliato sono perfetti! Il mio gattino gioca per ore. Qualità garantita!"
+                    </blockquote>
+                    <cite>- Francesca Dubini</cite>
+                    <p class="pet-info">Proprietaria di Micio (Gatto Europeo)</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="star-rating">⭐⭐⭐⭐⭐</div>
+                    <blockquote>
+                        "Assistenza veterinaria veloce e professionale. Finalmente ho trovato un posto affidabile per la salute del mio cane!"
+                    </blockquote>
+                    <cite>- Paolo Simone</cite>
+                    <p class="pet-info">Proprietario di Rex (Pastore Tedesco)</p>
+                </div>
+            </div>
+
+            <div class="testimonials-stats">
+                <div class="stat">
+                    <h3>4.9/5</h3>
+                    <p>Valutazione Media</p>
+                </div>
+                <div class="stat">
+                    <h3>500+</h3>
+                    <p>Clienti Soddisfatti</p>
+                </div>
+                <div class="stat">
+                    <h3>15 Anni</h3>
+                    <p>Di Esperienza</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer id="contatti">
+        <div class="footer-wrapper">
+            <div class="footer-content">
+                <!-- Colonna Brand -->
+                <div class="footer-section footer-brand">
+                    <div class="footer-logo">
+                        <h2 class="footer-title">🐾 PetPlanet</h2>
+                        <p class="footer-tagline">Amore e cura per i tuoi animali domestici</p>
+                    </div>
+                    <p class="footer-description">Da 15 anni, PetPlanet è il punto di riferimento affidabile per il benessere e la felicità dei vostri amici a quattro zampe.</p>
+                </div>
+
+                <!-- Colonna Link Veloci -->
+                <div class="footer-section footer-links">
+                    <h3 class="footer-section-title">Link Veloci</h3>
+                    <ul class="footer-link-list">
+                        <li><a href="#top" class="footer-link">Home</a></li>
+                        <li><a href="#evento-natale" class="footer-link">Eventi Natale</a></li>
+                        <li><a href="#prodotti" class="footer-link">Prodotti</a></li>
+                        <li><a href="#servizi" class="footer-link">Servizi</a></li>
+                        <li><a href="#chi-siamo" class="footer-link">Chi Siamo</a></li>
+                        <li><a href="#recensioni" class="footer-link">Recensioni</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonna Contatti -->
+                <div class="footer-section footer-contact">
+                    <h3 class="footer-section-title">Contatti</h3>
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <p class="contact-label">Email</p>
+                            <a href="mailto:info@petplanet.it" class="contact-link">info@petplanet.it</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <div>
+                            <p class="contact-label">Telefono</p>
+                            <a href="tel:+393331234567" class="contact-link">+39 333 1234567</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <p class="contact-label">Indirizzo</p>
+                            <p class="contact-text">Vicolo del Guinzaglio 4<br>38100 Trento (TN)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Colonna Social -->
+                <div class="footer-section footer-social">
+                    <h3 class="footer-section-title">Seguici</h3>
+                    <p class="social-intro">Rimani aggiornato sulle nostre novità</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/petplanetrento" target="_blank" rel="noopener noreferrer" class="social-button instagram" title="Instagram">
+                            <span class="social-icon-char">📱</span>
+                        </a>
+                        <a href="#" class="social-button facebook" title="Facebook">
+                            <span class="social-icon-char">f</span>
+                        </a>
+                        <a href="#" class="social-button tiktok" title="TikTok">
+                            <span class="social-icon-char">♪</span>
+                        </a>
+                        <a href="#" class="social-button whatsapp" title="WhatsApp">
+                            <span class="social-icon-char">💬</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="footer-divider"></div>
+
+            <!-- Bottom Section -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <p class="copyright-text">&copy; 2025 PetPlanet. Tutti i diritti riservati.</p>
+                </div>
+                <div class="footer-bottom-right">
+                    <a href="#" class="footer-legal-link">Privacy Policy</a>
+                    <span class="legal-separator">•</span>
+                    <a href="#" class="footer-legal-link">Cookie Policy</a>
+                    <span class="legal-separator">•</span>
+                    <a href="#" class="footer-legal-link">Termini di Servizio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const hamburgerMenu = document.getElementById('hamburger-menu');
+        const navMenu = document.getElementById('main-nav');
+        
+        // Toggle menu al click del bottone hamburger
+        hamburgerMenu.onclick = function(event) {
+            event.stopPropagation();
+            navMenu.classList.toggle('active');
+            hamburgerMenu.classList.toggle('is-open');
+        }
+        
+        // Chiudi menu al click su un link
+        const navLinks = navMenu.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navMenu.classList.remove('active');
+                hamburgerMenu.classList.remove('is-open');
+            });
+        });
+        
+        // Chiudi menu al click fuori dal menu
+        document.addEventListener('click', function(event) {
+            const isClickInsideMenu = navMenu.contains(event.target);
+            const isClickOnHamburger = hamburgerMenu.contains(event.target);
+            
+            if (!isClickInsideMenu && !isClickOnHamburger && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                hamburgerMenu.classList.remove('is-open');
+            }
+        });
+    </script>
+
+</body>
+</html>
